@@ -11,18 +11,24 @@
     <script src="https://kit.fontawesome.com/324b71f187.js" crossorigin="anonymous"></script>
     <title>Besouro Azul</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <a href="#">Home</a>
         <a href="./trailer.html">Trailer</a>
-        <a class="logo-dc" href="https://www.dc.com">
-            <img src="./img/logo-dc 1.png" alt="logo-dc">
-        </a>
+        <a class="logo-dc" href="https://www.dc.com"><img src="./img/logo-dc 1.png" alt="logo-dc"></a>
         <a href="./comic.html">Comic</a>
         <a href="./shop.html">Shop</a>
-        <i class="fas fa-bars"></i>
+        <i class="fas fa-bars" id="abrir"></i>
+        <i class="fas fa-times" id="fechar"></i>
+        <div class="overlay">
+            <a href="#">Home</a>
+            <a href="./trailer.html">Trailer</a>
+            <a href="./comic.html">Comic</a>
+            <a href="./shop.html">Shop</a>
+        </div>
     </header>
     <main>
         <div class="filme-container">
@@ -36,32 +42,25 @@
             </div>
             <div class="trailers">
                 <a href=https://www.youtube.com/watch?v=WvAdCYosyVo>
-                    <img src="img/trailer01 1.png" alt="Trailer 01">
+                <img src="img/trailer01 1.png" alt="Trailer 01">
                 </a>
                 <a href=https://www.youtube.com/watch?v=20tZlXLjC60>
-                    <img src="./img/trailer02 1.png" alt="Trailer 02">
+                <img src="./img/trailer02 1.png" alt="Trailer 02">
                 </a>
                 <a href="https://www.youtube.com/watch?v=sqHP-zdvXG8">
-                    <img src="./img/trailer03 1.png" alt="Trailer 03">
+                <img src="./img/trailer03 1.png" alt="Trailer 03">
                 </a>
-            </div>
+        </div>
         </div>
         <div class="social-container">
             <a href="https://www.facebook.com/dc/?locale=pt_BR">
                 <i class="fab fa-facebook"></i></a>
             <a href="https://www.youtube.com/@dcofficial"> 
-                <i class="fab fa-youtube"></i>
-            </a>
+                <i class="fab fa-youtube"></i></a>
             <a href="https://www.instagram.com/dcofficial/"> 
-                <i class="fab fa-instagram"></i>
-            </a>
-
-        </div>
+                <i class="fab fa-instagram"></i></a>
+    </div>
     </main>
-    <footer>
-        Michelle Buniowski
-    </footer>
-
+    <footer> Michelle Buniowski</footer>
 </body>
-
 </html>
